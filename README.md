@@ -96,8 +96,10 @@ When you alter the podinfo deployment using kubectl edit, the changes are revert
 
 # 8. Suspend updates
 Suspending updates to a kustomization allows you to directly edit objects applied from a kustomization, without your changes being reverted by the state in Git.
-To suspend updates for a kustomization, run the command flux suspend kustomization <name>.
-To resume updates run the command flux resume kustomization <name>
+To suspend updates for a kustomization, run the command 
+  flux suspend kustomization name
+To resume updates run the command
+  flux resume kustomization name
 
 # 9. Customize podinfo deployment
 To customize a deployment from a repository you don’t control, you can use Flux in-line patches. The following example shows how to use in-line patches to change the podinfo deployment.
