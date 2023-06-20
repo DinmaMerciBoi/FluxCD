@@ -43,7 +43,7 @@ git clone https://github.com/$GITHUB_USER/fleet-infra
 
 Or
 
-git clone https://$GITHUB_USER:<token>@github.com/$GITHUB_USER/fleet-infra.git
+git clone https://$GITHUB_USER:$GITHUB_TOKEN@github.com/$GITHUB_USER/fleet-infra.git
 
 cd fleet-infra
 
